@@ -1,0 +1,142 @@
+📌 Column: Status
+C = 'Censored' — the patient was still alive at the end of the study.
+CL = 'Censored due to Liver Transplantation' — patient got a new liver, not dead.
+D = 'Death' — the patient died during the study
+
+📌 Column: Drug
+It shows what treatment each patient received during the study.
+D-penicillamine = 'The patient received the actual medication.' -> 'D-penicillamine' is a real drug used for liver diseases.
+Placebo	 = The patient received a 'fake treatment' (dummy pill) — no active drug. -> Placebo is used to test whether the drug is truly effective, or if the patient improves simply because they think they're being treated.
+
+📌 Column: Ascites:
+This indicates whether the patient had ascites at the time of registration.
+What is Ascites?
+   -> Ascites is the abnormal buildup of fluid in the abdomen, often caused by severe liver disease like cirrhosis.
+   -> It's a sign of liver failure or disease severity.
+Yes → Patient had ascites (fluid present)
+No → Patient did not have ascites
+
+📌 Column: Hepatomegaly:
+This tells whether the patient had hepatomegaly — a clinical condition observed during examination.
+What is Hepatomegaly?
+    -> Hepato = 'liver'
+    -> Megaly = 'enlargement'
+So, Hepatomegaly means 'enlarged liver', which is a common indicator of liver disease (including cirrhosis or liver inflammation).
+
+📌 Column: Spiders:
+ What are Spider Angiomas ("Spiders")?
+    ->They are small, spider-like blood vessels visible just beneath the skin.
+    ->'Commonly seen in patients' with liver cirrhosis or liver failure.
+    ->Considered a sign of 'advanced liver disease'
+
+📌 Column: Edema:
+Indicates the presence and severity of edema (fluid swelling) and whether the patient is under diuretic treatment.
+What is Edema?
+    -> Edema is swelling caused by fluid retention, often in the legs or abdomen.
+    -> In liver disease, it results from low albumin or portal hypertension.
+    -> Severity and treatment status matter in prognosis.
+ N = No edema, and not taking diuretics
+ S = Edema present, but responds well to diuretics (treatment working)
+ Y = Edema present, and not controlled by diuretics (severe case)
+
+ 📌 Column: Bilirubin:
+ It represents the serum bilirubin level in the blood, measured in mg/dL (milligrams per deciliter).
+ What is Bilirubin?
+    -> Bilirubin is a yellow substance produced when your body breaks down old red blood cells
+    ->Normally, the liver filters it out of your blood and sends it into your bile (to be excreted in stool).
+    -> If your liver is damaged, bilirubin builds up in the blood, causing yellowing of the skin and eyes — acondition called jaundice.
+0.3 – 1.2 = 'Normal range'
+1.3 – 3.0 = 'Mildly elevated'
+> 3.0 = 'High — indicates liver dysfunction'
+"In liver disease (like cirrhosis), high bilirubin means poor liver function."
+
+📌 Column: Cholesterol:
+<200 = Desirable / Normal
+200 - 239 = Borderline high
+> 240 = 	High — medically concerning
+
+📌 Column: Albumin:
+This indicates the serum albumin concentration, measured in grams per deciliter (g/dL).
+What is Albumin?
+    -> Albumin is the main protein made by the liver.
+    -> It helps maintain oncotic pressure (i.e., keeps fluid in your blood vessels).
+    -> It also transports hormones, vitamins, and drugs throughout the body.
+3.5 - 5.0 = Normal
+< 3.5 = Low → Sign of liver dysfunction, malnutrition, or inflammation
+>5.0 = Rare, may indicate dehydration or lab error
+
+📌 Column: Copper:
+Represents urinary copper excretion, measured in micrograms per day (µg/day).
+< 50 µg/day = Normal
+50–200 µg/day = Possible mild increase
+> 300 µg/day = Abnormal – could indicate Wilson’s disease or advanced liver disease
+
+📌 Column: Alk_Phos:
+Represents Alkaline Phosphatase (ALP) level in U/L (units per liter) — a key liver function marker.
+
+What is Alkaline Phosphatase?
+    -> ALP is an enzyme found mainly in the liver, bile ducts, and bones.
+    -> It plays a role in breaking down proteins.
+    -> The liver releases ALP into the bloodstream during liver damage, bile duct obstruction, or bone disorders.
+
+~44–147 U/L (normal range) = Normal in most labs
+> 147 U/L= Could indicate:
+
+📌 Column: SGOT:
+SGOT: Serum Glutamic-Oxaloacetic Transaminase
+Also known as AST (Aspartate Aminotransferase).
+
+What it is
+SGOT is an enzyme found in:
+
+Liver
+
+Heart
+
+Muscles
+
+Kidneys
+
+Brain
+
+It helps with amino acid metabolism. When cells in these organs are damaged, SGOT leaks into the bloodstream.
+
+Common Clinical Ranges:
+>40 = Normal
+40 -100 = Mild elevation (may suggest fatty liver, early cirrhosis)
+100-300 = Moderate elevation (active hepatitis, bile duct issues)
+>300 = Severe elevation (acute liver injury, drug toxicity)
+>1000 = Very high (acute viral hepatitis, ischemic liver injury, toxin exposure)
+
+
+📌 Column: Triglycerides:
+🧪 In Medical Terms:
+Triglycerides are measured in mg/dL (milligrams per deciliter).
+High levels can be a sign of:
+    Liver problems (like cirrhosis)
+    Poor diet (too much sugar or fat)
+    Uncontrolled diabetes
+    Alcohol abuse
+    Metabolic syndrome
+
+Why it Matters:
+In liver disease (like cirrhosis), triglyceride levels can be abnormally high due to:
+    Disruption in liver’s ability to process fats.
+    Hormonal and metabolic imbalances.
+
+< 150 = Normal
+150 – 199 = Borderline High
+200 – 499 = High
+≥ 500 = Very High (risk of pancreatitis)
+
+📌 Column: Platelets
+Platelets are tiny cells in your blood that help stop bleeding. When you get a cut, they clump together and form a plug to seal the wound.
+Low = < 150
+Normal = 150 – 400
+High = > 400
+
+📌 Column:Prothrombin:
+Prothrombin Time measures how long blood takes to clot. It's a key marker of liver function, especially important in liver diseases like cirrhosis because the liver produces clotting factors.
+ 11 s = Possibly faster clotting (rare or lab variation)
+11–13.5 s = Normal
+> 13.5 s = Prolonged clotting time – often due to liver dysfunction or vitamin K deficiency
